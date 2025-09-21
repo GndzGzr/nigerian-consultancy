@@ -72,7 +72,13 @@
   --gold-darkest: #473F00;
 
 
+  --nigeria-green-lightest: #E6F4EA;
+  --nigeria-green-lighter: #C0E1CB;
+  --nigeria-green-light: #57B36F;
   --nigeria-green: #008751;
+  --nigeria-green-dark: #006B54;
+  --nigeria-green-darker: #003D36;
+  --nigeria-green-darkest: #002824;
 
 
 
@@ -82,11 +88,68 @@
 
 }
 
+@layer base {
+  h1 {
+    font-size: var(--font-h1-size);
+    line-height: var(--line-height-tight);
+  }
+
+  h2 {
+    font-size: var(--font-h2-size);
+    line-height: var(--line-height-tight);
+  }
+
+  h3 {
+    font-size: var(--font-h3-size);
+    line-height: var(--line-height-tight);
+  }
+
+  h4 {
+    font-size: var(--font-h4-size);
+    line-height: var(--line-height-normal);
+  }
+
+  h5 {
+    font-size: var(--font-h5-size);
+    line-height: var(--line-height-large);
+  }
+
+  .s1 {
+    font-size: var(--font-s1-size);
+    line-height: var(--line-height-loose);
+
+  }
+
+  .s2 {
+    font-size: var(--font-s2-size);
+    line-height: var(--line-height-loose);
+
+  }
+
+  p {
+    font-size: var(--font-p-size);
+    line-height: var(--line-height-loose);
+
+  }
+
+  .t {
+    font-size: var(--font-t-size);
+    line-height: var(--line-height-loose);
+
+  }
+
+  .c {
+    font-size: var(--font-c-size);
+    line-height: var(--line-height-loose);
+
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-merriweather-sans);
+  --font-serif: var(--font-cormorant-garamond)
 }
 
 @media (prefers-color-scheme: dark) {
@@ -115,8 +178,8 @@ body {}
 }
 
 .scheme-dark {
-  --color-background: var(--azure-darkest);
-  --color-foreground: var(--azure-darker);
+  --color-background: var(--nigeria-green-darkest);
+  --color-foreground: var(--nigeria-green-darker);
   --text-color: var(--neutral-white);
   --border-color: var(--neutral-white-20);
   --accent: var(--neutral-white)
@@ -130,69 +193,27 @@ body {}
   --accent: var(--neutral-white)
 }
 
-
-.text {
-
-  & h1 {
-    font-size: var(--font-h1-size);
-    line-height: var(--line-height-tight);
+.container {
+  background: var(--color-background);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  .child {
+    background-color: var(--color-foreground);
   }
+}
 
-  & h2 {
-    font-size: var(--font-h2-size);
-    line-height: var(--line-height-tight);
-  }
+.primary-btn {
+  background-color: var(--gold-lighter);
+  color: var(--color-foreground);
+}
 
-  & h3 {
-    font-size: var(--font-h3-size);
-    line-height: var(--line-height-tight);
-  }
-
-  & h4 {
-    font-size: var(--font-h4-size);
-    line-height: var(--line-height-normal);
-  }
-
-  & h5 {
-    font-size: var(--font-h5-size);
-    line-height: var(--line-height-large);
-  }
-
-  & .s1 {
-    font-size: var(--font-s1-size);
-    line-height: var(--line-height-loose);
-
-  }
-
-  & .s2 {
-    font-size: var(--font-s2-size);
-    line-height: var(--line-height-loose);
-
-  }
-
-  & p {
-    font-size: var(--font-p-size);
-    line-height: var(--line-height-loose);
-
-  }
-
-  & .t {
-    font-size: var(--font-t-size);
-    line-height: var(--line-height-loose);
-
-  }
-
-  & .c {
-    font-size: var(--font-c-size);
-    line-height: var(--line-height-loose);
-
-  }
-
-  & .sans {
-    font-family: var(--font-merriweather-sans);
-  }
-  & .serif {
-    font-family: var(--font-cormorant-garamond);
-  }
+.secondary-btn {
+  background-color: var(--nigeria-green);
+  color: var(--color-foreground);
+ 
+}
+.secondary-btn:hover {
+  background-color: var(--nigeria-green-dark);
+  color: var(--color-foreground);
 
 }

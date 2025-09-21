@@ -4,7 +4,8 @@ export default function About() {
   return (
     <div className="">
       <main className="">
-        <div>
+        <div className="h-screen scheme-dark">
+            <h1>Hello world!</h1>
           
         </div>
 
