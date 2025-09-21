@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Merriweather_Sans } from "next/font/google";
 import "./globals.css";
-
+import Footer from "@/components/views/Main/Footer";
+import Navbar from "@/components/views/Main/Navbar";
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant-garamond",
   subsets: ["latin"],
@@ -30,7 +31,10 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <Navbar />
+
         {children}
+        <Footer />
       </body>
     </html>
   );

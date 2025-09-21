@@ -1,8 +1,23 @@
+import { Btn } from "../atoms/btn";
+import { BtnProps } from "@/utils/interface";
 const ReadMoreButton = () => {
     return (
-        <button className="rounded-lg secondary-btn px-4 py-2 hover:cursor-pointer w-40">Learn More</button>)
+        <Btn width="w-40" type="secondary" rounded="rounded-full">
+            Read More
+        </Btn>
+    )        
 
 
 }
 
-export { ReadMoreButton };
+const ContactButton = () => {
+    return (
+        <Btn width="w-40" type="secondary" rounded="rounded-full">
+            Contact Us
+        </Btn>
+    )
+}
+
+
+
+export { ReadMoreButton, ContactButton };

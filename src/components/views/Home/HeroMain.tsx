@@ -9,7 +9,7 @@ export default function HeroMain() {
           <div className="col-span-1 flex flex-col justify-start items-start p-4">
             
             <h1 className="font-serif">Your Trusted Partner for Nigeria Visa Services in Turkey</h1>
-            <p className="font-sans mt-6">Simplifying the process, guiding you every step of the way.</p>
+            <p className="font-sans mt-6 mb-6">Simplifying the process, guiding you every step of the way.</p>
             <ConsultButton  />
 
           </div>

@@ -204,16 +204,21 @@ body {}
 
 .primary-btn {
   background-color: var(--gold-lighter);
-  color: var(--color-foreground);
+  color: var(--nigeria-green-darkest);
 }
 
 .secondary-btn {
   background-color: var(--nigeria-green);
-  color: var(--color-foreground);
+  color: var(--neutral-lighter);
  
 }
 .secondary-btn:hover {
   background-color: var(--nigeria-green-dark);
-  color: var(--color-foreground);
+  color: var(--neutral-lighter);
 
 }
+
+
+
+
+
