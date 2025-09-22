@@ -225,7 +225,84 @@ body {}
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
 
+/* Enhanced Navbar Styles */
+.navbar-glass {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(0, 40, 36, 0.9);
+  border: 1px solid rgba(115, 210, 22, 0.2);
+}
+
+.navbar-scroll {
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  background: rgba(0, 40, 36, 0.95);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Nigeria Theme Colors */
+.bg-nigeria-green {
+  background-color: var(--nigeria-green);
+}
+
+.bg-nigeria-green-dark {
+  background-color: var(--nigeria-green-dark);
+}
+
+.bg-nigeria-green-darker {
+  background-color: var(--nigeria-green-darker);
+}
+
+.bg-nigeria-green-darkest {
+  background-color: var(--nigeria-green-darkest);
+}
+
+.text-nigeria-green {
+  color: var(--nigeria-green);
+}
+
+.text-nigeria-green-darkest {
+  color: var(--nigeria-green-darkest);
+}
+
+.border-nigeria-green-dark {
+  border-color: var(--nigeria-green-dark);
+}
+
+.border-nigeria-green-light {
+  border-color: var(--nigeria-green-light);
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.bg-lima {
+  background-color: var(--lima);
+}
+
+.text-lima {
+  color: var(--lima);
+}
+
+/* Enhanced Button Styles */
+.consult-btn-enhanced {
+  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  color: var(--nigeria-green-darkest);
+  border: 2px solid var(--gold-light);
+  transition: all 0.3s ease;
+}
+
+.consult-btn-enhanced:hover {
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(237, 212, 0, 0.3);
 }
 
 
