@@ -196,6 +196,7 @@ body {}
 .container {
   background: var(--color-background);
   color: var(--text-color);
+  max-width: 100%;
   border: 1px solid var(--border-color);
   .child {
     background-color: var(--color-foreground);
@@ -218,6 +219,14 @@ body {}
 
 }
 
+.gradient-text {
+  background: linear-gradient(75deg, var(--neutral-dark), var(--neutral-darkest));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
 
 
 

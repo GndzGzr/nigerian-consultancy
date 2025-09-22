@@ -1,16 +1,12 @@
+import HeaderSection from "@/components/views/About/HeaderSection";
 import Image from "next/image";
-
+import AboutSection from "@/components/views/About/AboutSection";
 export default function About() {
   return (
     <div className="">
-      <main className="">
-        <div className="h-screen scheme-dark">
-            <h1>Hello world!</h1>
-          
-        </div>
+      <HeaderSection />
+      <AboutSection />
 
-
-      </main>
     </div>
   );
 }

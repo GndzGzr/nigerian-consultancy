@@ -1,4 +1,5 @@
 import { ConsultButton } from "@/components/core/ButtonWIcon";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -6,10 +7,10 @@ export default function Navbar() {
             <div className="px-4 py-2 rounded-full container scheme-dark w-full flex justify-start items-center gap-8">
                 <div className="text-2xl font-bold">LOGO</div>
                 <div className="flex space-x-6">
-                    <a className="t" href="#services">Services</a>
-                    <a className="t" href="#process">Process</a>
-                    <a className="t" href="#about">About Us</a>
-                    <a className="t" href="#about">Resources</a>
+                    <Link className="t" href="/services">Services</Link>
+                    <Link className="t" href="/process">Process</Link>
+                    <Link className="t" href="/about">About Us</Link>
+                    <Link className="t" href="/resources">Resources</Link>
                 </div>
                 <div className="justify-self-end flex space-x-6 ml-auto">
                     <ConsultButton />
