@@ -170,7 +170,7 @@ body {}
 }
 
 .scheme-light-alt {
-  --color-background: var(--neutral-lighter);
+  --color-background: var(--nigeria-green-lightest);
   --color-foreground: var(--neutral-lightest);
   --text-color: var(--neutral-darkest);
   --border-color: var(--neutral-darkest-15);
@@ -204,8 +204,8 @@ body {}
 }
 
 .primary-btn {
-  background-color: var(--gold-lighter);
-  color: var(--nigeria-green-darkest);
+  background-color: var(--nigeria-green);
+  color: var(--neutral-lightest);
 }
 
 .secondary-btn {
