@@ -5,7 +5,7 @@ export default function AboutSection() {
                 <div className="text-center mb-16">
                     <h2 className="font-serif gradient-text mb-8">About Nigeria Visa Consultancy</h2>
                     <p className="font-sans s1 max-w-4xl mx-auto">
-                        Detailed description of the company's history, mission, and vision. 
+                        Detailed description of the companys history, mission, and vision. 
                         We are a trusted partner in your journey to explore opportunities around the world.
                     </p>
                 </div>

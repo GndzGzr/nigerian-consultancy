@@ -70,7 +70,7 @@ export default function TestimonialSection() {
                             </div>
                             
                             <blockquote className="font-sans s2 italic text-neutral-dark">
-                                "{testimonial.quote}"
+                                {testimonial.quote}
                             </blockquote>
                         </div>
                     ))}

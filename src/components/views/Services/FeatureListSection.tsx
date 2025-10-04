@@ -69,7 +69,7 @@ export default function FeatureListSection() {
                     <div className="child p-8 rounded-lg max-w-2xl mx-auto">
                         <h3 className="font-serif text-gold mb-4">Need Something Specific?</h3>
                         <p className="font-sans text-neutral-lighter mb-4">
-                            Don't see your visa type listed? We handle specialized and unique visa applications too.
+                            Dont see your visa type listed? We handle specialized and unique visa applications too.
                         </p>
                         <button className="secondary-btn px-6 py-3 rounded-full font-sans">
                             Contact Us for Custom Solutions

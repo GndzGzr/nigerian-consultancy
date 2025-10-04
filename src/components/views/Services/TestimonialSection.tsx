@@ -39,7 +39,7 @@ export default function TestimonialSection() {
                 <div className="text-center mb-16">
                     <h2 className="font-serif gradient-text mb-8">Service Success Stories</h2>
                     <p className="font-sans s1 max-w-3xl mx-auto">
-                        Real testimonials from clients who have used the consultancy's services to obtain their visas.
+                        Real testimonials from clients who have used the consultancys services to obtain their visas.
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function TestimonialSection() {
                             </div>
                             
                             <blockquote className="font-sans s2 italic text-neutral-dark mb-4">
-                                "{testimonial.quote}"
+                                {testimonial.quote}
                             </blockquote>
                             
                             <div>

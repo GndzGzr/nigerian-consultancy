@@ -144,7 +144,7 @@ export default function FeatureListSection() {
                             
                             {/* Quote Icon */}
                             <div className="absolute top-6 right-6 text-6xl text-[var(--neutral-white)]/20 font-serif leading-none">
-                                "
+                          
                             </div>
 
                             {/* Star Rating */}
