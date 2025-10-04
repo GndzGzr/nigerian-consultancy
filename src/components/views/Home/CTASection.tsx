@@ -44,18 +44,18 @@ export default function CTASection() {
             <div className="absolute inset-0 opacity-10">
                 <motion.div 
                     className="absolute top-10 left-10 w-80 h-80 rounded-full bg-gradient-to-r from-[var(--nigeria-green)] to-[var(--nigeria-green-light)] blur-3xl"
-                    variants={floatingVariants}
+                    
                     animate="animate"
                 />
                 <motion.div 
                     className="absolute bottom-10 right-10 w-80 h-80 rounded-full bg-gradient-to-r from-[var(--gold)] to-[var(--lima)] blur-3xl"
-                    variants={floatingVariants}
+                    
                     animate="animate"
                     style={{ animationDelay: '2s' }}
                 />
                 <motion.div 
                     className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-gradient-to-r from-[var(--lima)] to-[var(--nigeria-green)]/30 blur-3xl"
-                    variants={floatingVariants}
+                    
                     animate="animate"
                     style={{ animationDelay: '1s' }}
                 />
@@ -64,14 +64,14 @@ export default function CTASection() {
             {/* Floating Elements */}
             <motion.div 
                 className="absolute top-20 left-20 w-12 h-12 rounded-full bg-[var(--gold)]/20 flex items-center justify-center text-2xl"
-                variants={floatingVariants}
+                
                 animate="animate"
             >
                 ✈️
             </motion.div>
             <motion.div 
                 className="absolute top-32 right-32 w-16 h-16 rounded-full bg-[var(--nigeria-green)]/20 flex items-center justify-center text-2xl"
-                variants={floatingVariants}
+                
                 animate="animate"
                 style={{ animationDelay: '1.5s' }}
             >
@@ -79,7 +79,7 @@ export default function CTASection() {
             </motion.div>
             <motion.div 
                 className="absolute bottom-40 left-40 w-10 h-10 rounded-full bg-[var(--lima)]/20 flex items-center justify-center text-xl"
-                variants={floatingVariants}
+                
                 animate="animate"
                 style={{ animationDelay: '0.5s' }}
             >
