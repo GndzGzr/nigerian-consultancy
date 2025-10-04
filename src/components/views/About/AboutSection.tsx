@@ -14,8 +14,7 @@ export default function AboutSection() {
                     <div>
                         <h3 className="font-serif gradient-text mb-6">Our Mission</h3>
                         <p className="font-sans mb-6">
-                            To simplify the visa application process and provide expert guidance that empowers 
-                            individuals to achieve their travel and immigration goals with confidence and ease.
+                            To simplify the visa application process and provide expert guidance that empowers individuals to achieve their travel and immigration goals with confidence and ease.
                         </p>
                         
                         <h3 className="font-serif gradient-text mb-6">Our Vision</h3>

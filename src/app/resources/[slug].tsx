@@ -45,7 +45,7 @@ export default function BlogPost({ params }: BlogPostProps) {
   };
 
   return (
-    <div className="">
+    <div>
       {/* Blog Post Header Section */}
       <div className="container scheme-dark py-24 relative">
         <Image
@@ -116,8 +116,8 @@ export default function BlogPost({ params }: BlogPostProps) {
           <div className="child p-8 rounded-lg">
             <h2 className="font-serif gradient-text mb-8">What Our Clients Say About This Topic</h2>
             <blockquote className="font-sans s1 italic text-neutral-dark mb-6">
-              "The guidance provided in this blog post was exactly what I needed for my visa application. 
-              The step-by-step approach made the complex process much more manageable."
+              The guidance provided in this blog post was exactly what I needed for my visa application. 
+              The step-by-step approach made the complex process much more manageable.
             </blockquote>
             <div className="flex justify-center items-center gap-4">
               <div className="relative w-16 h-16">
