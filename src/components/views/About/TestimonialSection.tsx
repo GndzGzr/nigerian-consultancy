@@ -3,27 +3,27 @@ import Image from 'next/image';
 export default function TestimonialSection() {
     const testimonials = [
         {
-            name: "Sarah Okonkwo",
+            name: "Selim Gündüz",
             role: "Student",
-            destination: "Canada",
+            destination: "Türkiye",
             image: "/images/avatar.jpg",
-            quote: "Nigeria Visa Consultancy made my dream of studying in Canada a reality. Their expert guidance through the complex visa process was invaluable.",
+            quote: " Nijerya konsolosluğu vize başvurumda bana sağladıkları mükemmel destek için minnettarım. Başvuru sürecini inanılmaz derecede kolaylaştırdılar ve her adımda yanımda oldular.",
             rating: 5
         },
         {
-            name: "Ibrahim Hassan",
+            name: "İbrahim Hasan",
             role: "Business Professional",
-            destination: "United Kingdom",
+            destination: "Türkiye",
             image: "/images/avatar.jpg",
-            quote: "Professional, reliable, and efficient. They helped me secure my UK business visa without any hassle. Highly recommended!",
+            quote: "Profesyonel, güvenilir ve etkili. Nijerya iş vize başvurumu sorunsuz bir şekilde almama yardımcı oldular. Şiddetle tavsiye ederim!",
             rating: 5
         },
         {
-            name: "Grace Adebayo",
+            name: "Zeynep Kaya",
             role: "Tourist",
             destination: "Schengen Area",
             image: "/images/avatar.jpg",
-            quote: "Excellent service! They handled all the paperwork for my European vacation visa. The team was responsive and knowledgeable.",
+            quote: "Mükemmel hizmet! Nijerya tatil vize başvurum için tüm evrakları hallettiler. Ekip son derece ilgili ve bilgiliydi.",
             rating: 5
         }
     ];
@@ -76,26 +76,6 @@ export default function TestimonialSection() {
                     ))}
                 </div>
 
-                <div className="text-center mt-12">
-                    <div className="child p-8 rounded-lg max-w-2xl mx-auto">
-                        <h3 className="font-serif gradient-text mb-4">Join Thousands of Satisfied Clients</h3>
-                        <p className="font-sans mb-4">Over 10,000+ successful visa applications processed with a 95% success rate.</p>
-                        <div className="flex justify-center space-x-8 text-center">
-                            <div>
-                                <div className="font-serif h4 text-nigeria-green">10,000+</div>
-                                <div className="font-sans t text-neutral-dark">Applications Processed</div>
-                            </div>
-                            <div>
-                                <div className="font-serif h4 text-nigeria-green">95%</div>
-                                <div className="font-sans t text-neutral-dark">Success Rate</div>
-                            </div>
-                            <div>
-                                <div className="font-serif h4 text-nigeria-green">7+</div>
-                                <div className="font-sans t text-neutral-dark">Years Experience</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );

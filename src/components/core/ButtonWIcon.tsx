@@ -9,10 +9,10 @@ const ConsultButton = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
-            <button className="group rounded-full primary-btn pl-3 pr-1 py-1 flex justify-center items-center hover:cursor-pointer">
+            <a href="tel:+905305619919" className="group rounded-full primary-btn pl-3 pr-1 py-1 flex justify-center items-center hover:cursor-pointer">
                 Book a Consultation
                 <ArrowRightCircleIcon className="inline-block h-8 w-8 ml-2 transition-transform duration-300 group-hover:scale-125" />
-            </button>
+            </a>
         </motion.div>
     )
 }

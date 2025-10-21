@@ -2,25 +2,19 @@ import Image from 'next/image';
 
 export default function TeamSection() {
     const teamMembers = [
+
         {
-            name: "Adebayo Johnson",
+            name: "Emre Çakıryılmaz",
+            role: "Senior Advisor",
+            expertise: "Management",
+            image: "/images/IMG_20251021_124743.jpg",
+            description: "Licensed immigration lawyer with extensive experience in complex visa cases and appeals."
+        },
+        {
+            name: "Emre Olgun",
             role: "Senior Visa Consultant",
-            expertise: "European & North American Visas",
-            image: "/images/avatar.jpg",
-            description: "10+ years of experience in visa consultancy with specialized knowledge in Schengen and US visa applications."
-        },
-        {
-            name: "Fatima Abdullahi",
-            role: "Immigration Specialist",
-            expertise: "Study & Work Permits",
-            image: "/images/avatar.jpg",
-            description: "Expert in student visa applications and work permit processes across multiple countries."
-        },
-        {
-            name: "Emeka Okafor",
-            role: "Legal Advisor",
-            expertise: "Immigration Law",
-            image: "/images/avatar.jpg",
+            expertise: "Visa Applications",
+            image: "/images/IMG_20251021_124743.jpg",
             description: "Licensed immigration lawyer with extensive experience in complex visa cases and appeals."
         }
     ];
@@ -35,7 +29,7 @@ export default function TeamSection() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="child p-6 rounded-lg text-center">
                             <div className="relative w-32 h-32 mx-auto mb-6">

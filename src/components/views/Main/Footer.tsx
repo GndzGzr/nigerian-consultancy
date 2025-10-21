@@ -109,8 +109,8 @@ export default function Footer() {
                                 <div>
                                     <p className="font-medium text-[var(--neutral-darkest)] mb-1">Office Address:</p>
                                     <p className="text-[var(--neutral-dark)] leading-relaxed">
-                                        Atatürk Mahallesi, Konsül Sokak No: 15/A<br />
-                                        Şişli, Istanbul, Turkey 34394
+                                        İlkadım Mahallesi, Dikmen Yıldızı Sokak No: 41/11<br />
+                                        Çankaya/Ankara
                                     </p>
                                 </div>
                             </div>
@@ -134,11 +134,11 @@ export default function Footer() {
                                     <div>
                                         <p className="font-medium text-[var(--neutral-darkest)]">Phone:</p>
                                         <motion.a 
-                                            href="tel:+90-212-XXX-XXXX"
+                                            href="tel:+90-530-561-9919"
                                             className="text-[var(--neutral-dark)] hover:text-[var(--nigeria-green)] transition-colors duration-300"
                                             whileHover={{ x: 5 }}
                                         >
-                                            +90 (212) XXX-XXXX
+                                            +90 (530) 561-9919
                                         </motion.a>
                                     </div>
                                 </div>
@@ -154,47 +154,18 @@ export default function Footer() {
                                     <div>
                                         <p className="font-medium text-[var(--neutral-darkest)]">Email:</p>
                                         <motion.a 
-                                            href="mailto:info@nigeriavisa.com.tr"
+                                            href="mailto:vagontur@gmail.com"
                                             className="text-[var(--neutral-dark)] hover:text-[var(--nigeria-green)] transition-colors duration-300"
                                             whileHover={{ x: 5 }}
                                         >
-                                            info@nigeriavisa.com.tr
+                                            vagontur@gmail.com
                                         </motion.a>
                                     </div>
                                 </div>
                             </div>
                         </motion.div>
 
-                        {/* Social Media */}
-                        <motion.div 
-                            className="mb-8"
-                            variants={itemVariants}
-                            transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
-                        >
-                            <p className="font-medium text-[var(--neutral-darkest)] mb-4">Follow Us:</p>
-                            <div className="flex space-x-4">
-                                {socialLinks.map((social, index) => (
-                                    <motion.a
-                                        key={index}
-                                        href={social.href}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className={`w-12 h-12 rounded-full bg-[var(--nigeria-green)]/10 flex items-center justify-center text-[var(--nigeria-green)] text-xl ${social.color} transition-all duration-300 hover:shadow-lg`}
-                                        whileHover={{ 
-                                            scale: 1.2, 
-                                            y: -3,
-                                            backgroundColor: "var(--nigeria-green)",
-                                            color: "white"
-                                        }}
-                                        whileTap={{ scale: 0.9 }}
-                                        transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                        aria-label={social.label}
-                                    >
-                                        <social.icon />
-                                    </motion.a>
-                                ))}
-                            </div>
-                        </motion.div>
+
                     </motion.div>
 
                     {/* Quick Links */}

@@ -20,9 +20,6 @@ export default function CTASection() {
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                     <ConsultButton />
-                    <button className="secondary-btn px-6 py-3 rounded-full font-sans">
-                        Learn More About Our Services
-                    </button>
                 </div>
                 
                 <div className="grid sm:grid-cols-3 gap-8 text-center">

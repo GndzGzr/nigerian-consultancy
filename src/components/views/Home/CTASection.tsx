@@ -154,7 +154,7 @@ export default function CTASection() {
                         Need immediate assistance? Call us now:
                     </p>
                     <motion.a 
-                        href="tel:+90-XXX-XXX-XXXX"
+                        href="tel:+90-530-561-9919"
                         className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[var(--gold)]/10 border border-[var(--gold)]/20 text-[var(--gold)] font-medium hover:bg-[var(--gold)] hover:text-white transition-all duration-300"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
@@ -162,7 +162,7 @@ export default function CTASection() {
                         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                         </svg>
-                        <span>+90 XXX XXX XXXX</span>
+                        <span>+90 530 561 9919</span>
                     </motion.a>
                 </motion.div>
             </motion.div>

@@ -16,11 +16,6 @@ export default function TimelineSection() {
             description: "Launched online consultation services and digital document processing platform."
         },
         {
-            year: "2021",
-            title: "Partnership Expansion",
-            description: "Established partnerships with embassies and consulates across 15 countries."
-        },
-        {
             year: "2022",
             title: "10,000+ Successful Applications",
             description: "Reached milestone of 10,000+ successful visa applications processed."
